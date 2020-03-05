@@ -4,4 +4,5 @@ RUN apk add npm && \
     npm install -g \
         serverless \
         serverless-domain-manager \
-        serverless-s3-sync
+        serverless-s3-sync && \
+    pip install --no-cache-dir --upgrade awscli
