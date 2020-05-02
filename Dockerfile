@@ -1,6 +1,6 @@
 FROM python:3.7-alpine
 
-RUN apk add npm && \
+RUN apk add make npm && \
     npm install -g \
         serverless \
         serverless-domain-manager \
